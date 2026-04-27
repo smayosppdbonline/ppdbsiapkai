@@ -171,7 +171,7 @@ export default function Home() {
                     <img src={settings?.fotoKepalaSekolah || "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=256&auto=format&fit=crop"} alt="Kepala Sekolah" className="w-full h-full object-cover" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-slate-900">{settings?.namaKepalaSekolah || 'Kepala Sekolah'}</h4>
+                    <h4 className="font-bold text-slate-900">{settings?.namaKepalaSekolah || 'RD. Rolland Ignatius Renwarin, S.Fils'}</h4>
                     <p className="text-sm text-slate-500">Kepala Sekolah {settings?.namaSekolah}</p>
                   </div>
                 </div>
